@@ -37,7 +37,7 @@ val RamPalette = ColorPalette(
         positive = ColorScale(
             darkest = Color(0xFF003600),
             dark = Color(0xFF006b00),
-            medium = Color(0xFF008a05),
+            medium = Color(0xFF55CC44),
             light = Color(0xFF79d279),
             lightest = Color(0xFFeffaef),
         ),
