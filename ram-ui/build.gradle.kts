@@ -1,5 +1,5 @@
 plugins {
-    id("arkamo.android.compose")
+    id("arkamo.android.library.compose")
 }
 
 android {
