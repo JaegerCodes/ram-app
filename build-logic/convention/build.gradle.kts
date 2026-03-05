@@ -38,5 +38,9 @@ gradlePlugin {
             id = "arkamo.kotlin.feature.domain"
             implementationClass = "KotlinFeatureDomainConventionPlugin"
         }
+        register("androidFeaturePresentation") {
+            id = "arkamo.android.feature.presentation"
+            implementationClass = "AndroidFeaturePresentationConventionPlugin"
+        }
     }
 }

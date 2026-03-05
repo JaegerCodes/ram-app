@@ -19,6 +19,7 @@ class AndroidLibraryComposeConventionPlugin : Plugin<Project> {
                 configureKotlinAndroid(this)
                 configureAndroidCompose(this)
                 defaultConfig {
+                    minSdk = 24
                     consumerProguardFiles("consumer-rules.pro")
                 }
             }

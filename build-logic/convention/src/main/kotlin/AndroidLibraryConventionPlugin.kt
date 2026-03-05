@@ -17,6 +17,7 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
                 configureKotlinAndroid(this)
 
                 defaultConfig {
+                    minSdk = 24
                     consumerProguardFiles("consumer-rules.pro")
                 }
 

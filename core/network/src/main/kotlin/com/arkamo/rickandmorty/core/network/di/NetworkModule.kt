@@ -33,6 +33,7 @@ val networkModule = module {
 
     single<Retrofit> {
         Retrofit.Builder()
+            .baseUrl("https://rickandmortyapi.com/api/")
             .client(get())
             .addConverterFactory(MoshiConverterFactory.create(get()))
             .build()

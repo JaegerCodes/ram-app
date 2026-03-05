@@ -23,9 +23,16 @@ android {
 dependencies {
     implementation(project(":core:network"))
     implementation(project(":ram-ui"))
+    implementation(project(":feature:character:data"))
+    implementation(project(":feature:character:domain"))
+    implementation(project(":feature:character:presentation"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+
+    // Navigation (NavHost lives in the app module)
+    implementation(libs.compose.navigation)
 
     // Koin
     implementation(libs.koin.android)

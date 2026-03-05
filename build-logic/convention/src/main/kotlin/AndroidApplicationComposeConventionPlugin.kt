@@ -17,6 +17,9 @@ class AndroidApplicationComposeConventionPlugin : Plugin<Project> {
             extensions.configure<ApplicationExtension> {
                 configureKotlinAndroid(this)
                 configureAndroidCompose(this)
+                defaultConfig {
+                    minSdk = 24
+                }
             }
         }
     }
